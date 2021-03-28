@@ -70,7 +70,7 @@ class dbm(Resource):
         #close the connection
         conn.close()
 
-        return  {args}
+        return  {"Found":a}
 
     def post(self):
         args = addDataArgs.parse_args()
