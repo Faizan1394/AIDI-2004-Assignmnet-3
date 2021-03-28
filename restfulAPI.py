@@ -126,7 +126,5 @@ class dbm(Resource):
 api.add_resource(dbm,'/')
 api.add_resource(dbmAll,'/all')
 
-
-
 if __name__ == '__main__':
     app.run(port=8080, debug=True)
